@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D39E4321E30EB0000CCEE02 /* CFJourneyDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D39E4311E30EB0000CCEE02 /* CFJourneyDao.m */; };
+		904315A81E35AA1500CFB2F0 /* JFIcon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 904315A71E35AA1500CFB2F0 /* JFIcon.ttf */; };
+		904315AB1E35ADE500CFB2F0 /* JFIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 904315AA1E35ADE500CFB2F0 /* JFIconFont.m */; };
+		904315AE1E35E6C700CFB2F0 /* DINOT-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 904315AD1E35E6C700CFB2F0 /* DINOT-Bold.ttf */; };
+		904315B11E3714CF00CFB2F0 /* JFColorPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 904315B01E3714CF00CFB2F0 /* JFColorPolyline.m */; };
+		905BFB161E31A893001BE239 /* JFRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 905BFB151E31A893001BE239 /* JFRecordCell.m */; };
+		905BFB191E31A8B6001BE239 /* JFHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905BFB181E31A8B6001BE239 /* JFHistoryViewController.m */; };
+		905BFB1C1E32010F001BE239 /* JFRecordDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905BFB1B1E32010F001BE239 /* JFRecordDetailViewController.m */; };
+		90A155E01E308A51001B7003 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A155DF1E308A51001B7003 /* main.m */; };
+		90A155E31E308A51001B7003 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A155E21E308A51001B7003 /* AppDelegate.m */; };
+		90A155E91E308A51001B7003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90A155E71E308A51001B7003 /* Main.storyboard */; };
+		90A155EB1E308A51001B7003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90A155EA1E308A51001B7003 /* Assets.xcassets */; };
+		90A155EE1E308A51001B7003 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90A155EC1E308A51001B7003 /* LaunchScreen.storyboard */; };
+		90A155F91E308A51001B7003 /* JFRunningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A155F81E308A51001B7003 /* JFRunningTests.m */; };
+		90A156041E308A51001B7003 /* JFRunningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A156031E308A51001B7003 /* JFRunningUITests.m */; };
+		90A156141E308C27001B7003 /* JFRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A156131E308C27001B7003 /* JFRecordViewController.m */; };
+		90A156181E309E46001B7003 /* CFJourney.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A156171E309E46001B7003 /* CFJourney.m */; };
+		90A1561B1E30A4A9001B7003 /* DB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90A156191E30A4A9001B7003 /* DB.xcdatamodeld */; };
+		90A1561E1E30BF8B001B7003 /* CFLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A1561D1E30BF8B001B7003 /* CFLocation.m */; };
+		90C3EB281E34B61700C6C4E7 /* JFRecordShowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C3EB271E34B61700C6C4E7 /* JFRecordShowModel.m */; };
+		90C90D291E320254003EB08A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C90D281E320254003EB08A /* MapKit.framework */; };
+		90C90D2D1E320D16003EB08A /* WGS84TOGCJ02.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C90D2C1E320D16003EB08A /* WGS84TOGCJ02.m */; };
+		D7BBAD3EBA1DF67F41CDAD85 /* libPods-JFRunning.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F134EA54C0768211D84B1C /* libPods-JFRunning.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90A155F51E308A51001B7003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90A155D31E308A51001B7003 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90A155DA1E308A51001B7003;
+			remoteInfo = JFRunning;
+		};
+		90A156001E308A51001B7003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90A155D31E308A51001B7003 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90A155DA1E308A51001B7003;
+			remoteInfo = JFRunning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D39E4301E30EB0000CCEE02 /* CFJourneyDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFJourneyDao.h; sourceTree = "<group>"; };
+		1D39E4311E30EB0000CCEE02 /* CFJourneyDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFJourneyDao.m; sourceTree = "<group>"; };
+		44F134EA54C0768211D84B1C /* libPods-JFRunning.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JFRunning.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5255895FEBBE03B823082EBC /* Pods-JFRunning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFRunning.release.xcconfig"; path = "Pods/Target Support Files/Pods-JFRunning/Pods-JFRunning.release.xcconfig"; sourceTree = "<group>"; };
+		745B9ABEFCD523787054FC52 /* Pods-JFRunning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFRunning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JFRunning/Pods-JFRunning.debug.xcconfig"; sourceTree = "<group>"; };
+		904315A51E359A7C00CFB2F0 /* JFPublic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFPublic.h; sourceTree = "<group>"; };
+		904315A71E35AA1500CFB2F0 /* JFIcon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = JFIcon.ttf; sourceTree = "<group>"; };
+		904315A91E35ADE500CFB2F0 /* JFIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFIconFont.h; sourceTree = "<group>"; };
+		904315AA1E35ADE500CFB2F0 /* JFIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFIconFont.m; sourceTree = "<group>"; };
+		904315AD1E35E6C700CFB2F0 /* DINOT-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINOT-Bold.ttf"; sourceTree = "<group>"; };
+		904315AF1E3714CF00CFB2F0 /* JFColorPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFColorPolyline.h; sourceTree = "<group>"; };
+		904315B01E3714CF00CFB2F0 /* JFColorPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFColorPolyline.m; sourceTree = "<group>"; };
+		905BFB141E31A893001BE239 /* JFRecordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFRecordCell.h; sourceTree = "<group>"; };
+		905BFB151E31A893001BE239 /* JFRecordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFRecordCell.m; sourceTree = "<group>"; };
+		905BFB171E31A8B6001BE239 /* JFHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFHistoryViewController.h; sourceTree = "<group>"; };
+		905BFB181E31A8B6001BE239 /* JFHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFHistoryViewController.m; sourceTree = "<group>"; };
+		905BFB1A1E32010F001BE239 /* JFRecordDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFRecordDetailViewController.h; sourceTree = "<group>"; };
+		905BFB1B1E32010F001BE239 /* JFRecordDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFRecordDetailViewController.m; sourceTree = "<group>"; };
+		90A155DB1E308A51001B7003 /* JFRunning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JFRunning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A155DF1E308A51001B7003 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90A155E11E308A51001B7003 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90A155E21E308A51001B7003 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90A155E81E308A51001B7003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90A155EA1E308A51001B7003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90A155ED1E308A51001B7003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90A155EF1E308A51001B7003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90A155F41E308A51001B7003 /* JFRunningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFRunningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A155F81E308A51001B7003 /* JFRunningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFRunningTests.m; sourceTree = "<group>"; };
+		90A155FA1E308A51001B7003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90A155FF1E308A51001B7003 /* JFRunningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFRunningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A156031E308A51001B7003 /* JFRunningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFRunningUITests.m; sourceTree = "<group>"; };
+		90A156051E308A51001B7003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90A156121E308C27001B7003 /* JFRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFRecordViewController.h; sourceTree = "<group>"; };
+		90A156131E308C27001B7003 /* JFRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFRecordViewController.m; sourceTree = "<group>"; };
+		90A156161E309E46001B7003 /* CFJourney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFJourney.h; sourceTree = "<group>"; };
+		90A156171E309E46001B7003 /* CFJourney.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFJourney.m; sourceTree = "<group>"; };
+		90A1561A1E30A4A9001B7003 /* DB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DB.xcdatamodel; sourceTree = "<group>"; };
+		90A1561C1E30BF8B001B7003 /* CFLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFLocation.h; sourceTree = "<group>"; };
+		90A1561D1E30BF8B001B7003 /* CFLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFLocation.m; sourceTree = "<group>"; };
+		90C3EB261E34B61700C6C4E7 /* JFRecordShowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFRecordShowModel.h; sourceTree = "<group>"; };
+		90C3EB271E34B61700C6C4E7 /* JFRecordShowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFRecordShowModel.m; sourceTree = "<group>"; };
+		90C90D281E320254003EB08A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		90C90D2B1E320D16003EB08A /* WGS84TOGCJ02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGS84TOGCJ02.h; sourceTree = "<group>"; };
+		90C90D2C1E320D16003EB08A /* WGS84TOGCJ02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGS84TOGCJ02.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90A155D81E308A51001B7003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C90D291E320254003EB08A /* MapKit.framework in Frameworks */,
+				D7BBAD3EBA1DF67F41CDAD85 /* libPods-JFRunning.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A155F11E308A51001B7003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A155FC1E308A51001B7003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C4DAB74FBDCD8B6A957E591 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				745B9ABEFCD523787054FC52 /* Pods-JFRunning.debug.xcconfig */,
+				5255895FEBBE03B823082EBC /* Pods-JFRunning.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		904315A61E35A9FF00CFB2F0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				904315AD1E35E6C700CFB2F0 /* DINOT-Bold.ttf */,
+				904315A71E35AA1500CFB2F0 /* JFIcon.ttf */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		905BFB101E31A832001BE239 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				905BFB141E31A893001BE239 /* JFRecordCell.h */,
+				905BFB151E31A893001BE239 /* JFRecordCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		90A155D21E308A51001B7003 = {
+			isa = PBXGroup;
+			children = (
+				90A155DD1E308A51001B7003 /* JFRunning */,
+				90A155F71E308A51001B7003 /* JFRunningTests */,
+				90A156021E308A51001B7003 /* JFRunningUITests */,
+				90A155DC1E308A51001B7003 /* Products */,
+				90C90D271E320254003EB08A /* Frameworks */,
+				4C4DAB74FBDCD8B6A957E591 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		90A155DC1E308A51001B7003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90A155DB1E308A51001B7003 /* JFRunning.app */,
+				90A155F41E308A51001B7003 /* JFRunningTests.xctest */,
+				90A155FF1E308A51001B7003 /* JFRunningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90A155DD1E308A51001B7003 /* JFRunning */ = {
+			isa = PBXGroup;
+			children = (
+				90C90D2A1E320D07003EB08A /* Utils */,
+				905BFB101E31A832001BE239 /* View */,
+				90A156151E309E26001B7003 /* Model */,
+				90A156111E308C09001B7003 /* VC */,
+				904315A61E35A9FF00CFB2F0 /* Resource */,
+				90A155E11E308A51001B7003 /* AppDelegate.h */,
+				90A155E21E308A51001B7003 /* AppDelegate.m */,
+				90A156191E30A4A9001B7003 /* DB.xcdatamodeld */,
+				90A155E71E308A51001B7003 /* Main.storyboard */,
+				90A155EA1E308A51001B7003 /* Assets.xcassets */,
+				90A155EC1E308A51001B7003 /* LaunchScreen.storyboard */,
+				90A155EF1E308A51001B7003 /* Info.plist */,
+				90A155DE1E308A51001B7003 /* Supporting Files */,
+			);
+			path = JFRunning;
+			sourceTree = "<group>";
+		};
+		90A155DE1E308A51001B7003 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90A155DF1E308A51001B7003 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90A155F71E308A51001B7003 /* JFRunningTests */ = {
+			isa = PBXGroup;
+			children = (
+				90A155F81E308A51001B7003 /* JFRunningTests.m */,
+				90A155FA1E308A51001B7003 /* Info.plist */,
+			);
+			path = JFRunningTests;
+			sourceTree = "<group>";
+		};
+		90A156021E308A51001B7003 /* JFRunningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90A156031E308A51001B7003 /* JFRunningUITests.m */,
+				90A156051E308A51001B7003 /* Info.plist */,
+			);
+			path = JFRunningUITests;
+			sourceTree = "<group>";
+		};
+		90A156111E308C09001B7003 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				90A156121E308C27001B7003 /* JFRecordViewController.h */,
+				90A156131E308C27001B7003 /* JFRecordViewController.m */,
+				905BFB171E31A8B6001BE239 /* JFHistoryViewController.h */,
+				905BFB181E31A8B6001BE239 /* JFHistoryViewController.m */,
+				905BFB1A1E32010F001BE239 /* JFRecordDetailViewController.h */,
+				905BFB1B1E32010F001BE239 /* JFRecordDetailViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		90A156151E309E26001B7003 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90A156161E309E46001B7003 /* CFJourney.h */,
+				90A156171E309E46001B7003 /* CFJourney.m */,
+				1D39E4301E30EB0000CCEE02 /* CFJourneyDao.h */,
+				1D39E4311E30EB0000CCEE02 /* CFJourneyDao.m */,
+				90A1561C1E30BF8B001B7003 /* CFLocation.h */,
+				90A1561D1E30BF8B001B7003 /* CFLocation.m */,
+				90C3EB261E34B61700C6C4E7 /* JFRecordShowModel.h */,
+				90C3EB271E34B61700C6C4E7 /* JFRecordShowModel.m */,
+				904315AF1E3714CF00CFB2F0 /* JFColorPolyline.h */,
+				904315B01E3714CF00CFB2F0 /* JFColorPolyline.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90C90D271E320254003EB08A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90C90D281E320254003EB08A /* MapKit.framework */,
+				44F134EA54C0768211D84B1C /* libPods-JFRunning.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90C90D2A1E320D07003EB08A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				90C90D2B1E320D16003EB08A /* WGS84TOGCJ02.h */,
+				90C90D2C1E320D16003EB08A /* WGS84TOGCJ02.m */,
+				904315A51E359A7C00CFB2F0 /* JFPublic.h */,
+				904315A91E35ADE500CFB2F0 /* JFIconFont.h */,
+				904315AA1E35ADE500CFB2F0 /* JFIconFont.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90A155DA1E308A51001B7003 /* JFRunning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90A156081E308A51001B7003 /* Build configuration list for PBXNativeTarget "JFRunning" */;
+			buildPhases = (
+				C1E7ADD0665FA52A15067F0B /* [CP] Check Pods Manifest.lock */,
+				90A155D71E308A51001B7003 /* Sources */,
+				90A155D81E308A51001B7003 /* Frameworks */,
+				90A155D91E308A51001B7003 /* Resources */,
+				5E6F55FE74BAF3F528FB0B5A /* [CP] Embed Pods Frameworks */,
+				80F33284B52D8EF26C3FBA13 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JFRunning;
+			productName = JFRunning;
+			productReference = 90A155DB1E308A51001B7003 /* JFRunning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90A155F31E308A51001B7003 /* JFRunningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90A1560B1E308A51001B7003 /* Build configuration list for PBXNativeTarget "JFRunningTests" */;
+			buildPhases = (
+				90A155F01E308A51001B7003 /* Sources */,
+				90A155F11E308A51001B7003 /* Frameworks */,
+				90A155F21E308A51001B7003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90A155F61E308A51001B7003 /* PBXTargetDependency */,
+			);
+			name = JFRunningTests;
+			productName = JFRunningTests;
+			productReference = 90A155F41E308A51001B7003 /* JFRunningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90A155FE1E308A51001B7003 /* JFRunningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90A1560E1E308A51001B7003 /* Build configuration list for PBXNativeTarget "JFRunningUITests" */;
+			buildPhases = (
+				90A155FB1E308A51001B7003 /* Sources */,
+				90A155FC1E308A51001B7003 /* Frameworks */,
+				90A155FD1E308A51001B7003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90A156011E308A51001B7003 /* PBXTargetDependency */,
+			);
+			name = JFRunningUITests;
+			productName = JFRunningUITests;
+			productReference = 90A155FF1E308A51001B7003 /* JFRunningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90A155D31E308A51001B7003 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = RIck;
+				TargetAttributes = {
+					90A155DA1E308A51001B7003 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CUT926R9S8;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					90A155F31E308A51001B7003 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CUT926R9S8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 90A155DA1E308A51001B7003;
+					};
+					90A155FE1E308A51001B7003 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CUT926R9S8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 90A155DA1E308A51001B7003;
+					};
+				};
+			};
+			buildConfigurationList = 90A155D61E308A51001B7003 /* Build configuration list for PBXProject "JFRunning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90A155D21E308A51001B7003;
+			productRefGroup = 90A155DC1E308A51001B7003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90A155DA1E308A51001B7003 /* JFRunning */,
+				90A155F31E308A51001B7003 /* JFRunningTests */,
+				90A155FE1E308A51001B7003 /* JFRunningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90A155D91E308A51001B7003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904315A81E35AA1500CFB2F0 /* JFIcon.ttf in Resources */,
+				90A155EE1E308A51001B7003 /* LaunchScreen.storyboard in Resources */,
+				90A155EB1E308A51001B7003 /* Assets.xcassets in Resources */,
+				904315AE1E35E6C700CFB2F0 /* DINOT-Bold.ttf in Resources */,
+				90A155E91E308A51001B7003 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A155F21E308A51001B7003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A155FD1E308A51001B7003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E6F55FE74BAF3F528FB0B5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JFRunning/Pods-JFRunning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80F33284B52D8EF26C3FBA13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JFRunning/Pods-JFRunning-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1E7ADD0665FA52A15067F0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90A155D71E308A51001B7003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905BFB161E31A893001BE239 /* JFRecordCell.m in Sources */,
+				904315B11E3714CF00CFB2F0 /* JFColorPolyline.m in Sources */,
+				905BFB191E31A8B6001BE239 /* JFHistoryViewController.m in Sources */,
+				904315AB1E35ADE500CFB2F0 /* JFIconFont.m in Sources */,
+				90A155E31E308A51001B7003 /* AppDelegate.m in Sources */,
+				90C3EB281E34B61700C6C4E7 /* JFRecordShowModel.m in Sources */,
+				90A1561B1E30A4A9001B7003 /* DB.xcdatamodeld in Sources */,
+				90A156141E308C27001B7003 /* JFRecordViewController.m in Sources */,
+				90A155E01E308A51001B7003 /* main.m in Sources */,
+				90C90D2D1E320D16003EB08A /* WGS84TOGCJ02.m in Sources */,
+				905BFB1C1E32010F001BE239 /* JFRecordDetailViewController.m in Sources */,
+				1D39E4321E30EB0000CCEE02 /* CFJourneyDao.m in Sources */,
+				90A156181E309E46001B7003 /* CFJourney.m in Sources */,
+				90A1561E1E30BF8B001B7003 /* CFLocation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A155F01E308A51001B7003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A155F91E308A51001B7003 /* JFRunningTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A155FB1E308A51001B7003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A156041E308A51001B7003 /* JFRunningUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90A155F61E308A51001B7003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90A155DA1E308A51001B7003 /* JFRunning */;
+			targetProxy = 90A155F51E308A51001B7003 /* PBXContainerItemProxy */;
+		};
+		90A156011E308A51001B7003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90A155DA1E308A51001B7003 /* JFRunning */;
+			targetProxy = 90A156001E308A51001B7003 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90A155E71E308A51001B7003 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90A155E81E308A51001B7003 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90A155EC1E308A51001B7003 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90A155ED1E308A51001B7003 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90A156061E308A51001B7003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90A156071E308A51001B7003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90A156091E308A51001B7003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 745B9ABEFCD523787054FC52 /* Pods-JFRunning.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CUT926R9S8;
+				INFOPLIST_FILE = JFRunning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rick.JFRunning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JFRunning-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		90A1560A1E308A51001B7003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5255895FEBBE03B823082EBC /* Pods-JFRunning.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CUT926R9S8;
+				INFOPLIST_FILE = JFRunning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rick.JFRunning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JFRunning-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		90A1560C1E308A51001B7003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CUT926R9S8;
+				INFOPLIST_FILE = JFRunningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rick.JFRunningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JFRunning.app/JFRunning";
+			};
+			name = Debug;
+		};
+		90A1560D1E308A51001B7003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CUT926R9S8;
+				INFOPLIST_FILE = JFRunningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rick.JFRunningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JFRunning.app/JFRunning";
+			};
+			name = Release;
+		};
+		90A1560F1E308A51001B7003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CUT926R9S8;
+				INFOPLIST_FILE = JFRunningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rick.JFRunningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JFRunning;
+			};
+			name = Debug;
+		};
+		90A156101E308A51001B7003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CUT926R9S8;
+				INFOPLIST_FILE = JFRunningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rick.JFRunningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JFRunning;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90A155D61E308A51001B7003 /* Build configuration list for PBXProject "JFRunning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90A156061E308A51001B7003 /* Debug */,
+				90A156071E308A51001B7003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90A156081E308A51001B7003 /* Build configuration list for PBXNativeTarget "JFRunning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90A156091E308A51001B7003 /* Debug */,
+				90A1560A1E308A51001B7003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90A1560B1E308A51001B7003 /* Build configuration list for PBXNativeTarget "JFRunningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90A1560C1E308A51001B7003 /* Debug */,
+				90A1560D1E308A51001B7003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90A1560E1E308A51001B7003 /* Build configuration list for PBXNativeTarget "JFRunningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90A1560F1E308A51001B7003 /* Debug */,
+				90A156101E308A51001B7003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		90A156191E30A4A9001B7003 /* DB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				90A1561A1E30A4A9001B7003 /* DB.xcdatamodel */,
+			);
+			currentVersion = 90A1561A1E30A4A9001B7003 /* DB.xcdatamodel */;
+			path = DB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 90A155D31E308A51001B7003 /* Project object */;
+}
